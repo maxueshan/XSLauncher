@@ -1,0 +1,27 @@
+{
+  "name": "XSLauncher",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "version": "1.0.0",
+  "summary": "XSLauncher",
+  "description": "launch task schedule",
+  "homepage": "https://www.baidu.com",
+  "source": {
+    "git": ""
+  },
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "XS": "xs@qq.com"
+  },
+  "source_files": [
+    "Source/*.{swift}",
+    "Source/**/*.{swift}"
+  ],
+  "pod_target_xcconfig": {
+    "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1"
+  }
+}

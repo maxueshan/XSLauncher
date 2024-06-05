@@ -1,0 +1,6 @@
+module XSLauncher {
+  umbrella header "XSLauncher-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - XSLauncher (1.0.0)
+
+DEPENDENCIES:
+  - XSLauncher (from `./XSLauncher`)
+
+EXTERNAL SOURCES:
+  XSLauncher:
+    :path: "./XSLauncher"
+
+SPEC CHECKSUMS:
+  XSLauncher: f3923708abf96dd41dd3632c7ecabe2886f67904
+
+PODFILE CHECKSUM: e7296cbc6b6c09099aceb1a713014aa655176a9d
+
+COCOAPODS: 1.14.3
