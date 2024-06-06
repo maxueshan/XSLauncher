@@ -6,14 +6,19 @@
 //
 
 import UIKit
+import XSLauncher
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view.
   }
-
-
+  override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
+    
+    XSLaunchManager.shared().executeLaunchItems(with: .freeTime)
+  }
+   
 }
 

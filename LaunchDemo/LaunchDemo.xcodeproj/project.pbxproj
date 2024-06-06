@@ -14,6 +14,10 @@
 		F20CB7612C0F3E440016AD19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20CB75F2C0F3E440016AD19 /* Main.storyboard */; };
 		F20CB7632C0F3E450016AD19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20CB7622C0F3E450016AD19 /* Assets.xcassets */; };
 		F20CB7662C0F3E450016AD19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20CB7642C0F3E450016AD19 /* LaunchScreen.storyboard */; };
+		F20CB7882C119B910016AD19 /* TaskA.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20CB7872C119B910016AD19 /* TaskA.swift */; };
+		F20CB78A2C119BCF0016AD19 /* TaskB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20CB7892C119BCF0016AD19 /* TaskB.swift */; };
+		F20CB78C2C119BD50016AD19 /* TaskC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20CB78B2C119BD50016AD19 /* TaskC.swift */; };
+		F20CB78E2C11ABFD0016AD19 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20CB78D2C11ABFD0016AD19 /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		F20CB7622C0F3E450016AD19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F20CB7652C0F3E450016AD19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F20CB7672C0F3E450016AD19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F20CB7872C119B910016AD19 /* TaskA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskA.swift; sourceTree = "<group>"; };
+		F20CB7892C119BCF0016AD19 /* TaskB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskB.swift; sourceTree = "<group>"; };
+		F20CB78B2C119BD50016AD19 /* TaskC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskC.swift; sourceTree = "<group>"; };
+		F20CB78D2C11ABFD0016AD19 /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,6 @@
 				55FBE3225C9EAC6CAE79089C /* Pods-LaunchDemo.debug.xcconfig */,
 				0ACA56FE779EE8D8C9D3DC6B /* Pods-LaunchDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -84,6 +91,10 @@
 				F20CB7592C0F3E440016AD19 /* AppDelegate.swift */,
 				F20CB75B2C0F3E440016AD19 /* SceneDelegate.swift */,
 				F20CB75D2C0F3E440016AD19 /* ViewController.swift */,
+				F20CB7872C119B910016AD19 /* TaskA.swift */,
+				F20CB7892C119BCF0016AD19 /* TaskB.swift */,
+				F20CB78B2C119BD50016AD19 /* TaskC.swift */,
+				F20CB78D2C11ABFD0016AD19 /* TaskManager.swift */,
 				F20CB75F2C0F3E440016AD19 /* Main.storyboard */,
 				F20CB7622C0F3E450016AD19 /* Assets.xcassets */,
 				F20CB7642C0F3E450016AD19 /* LaunchScreen.storyboard */,
@@ -189,8 +200,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20CB78C2C119BD50016AD19 /* TaskC.swift in Sources */,
 				F20CB75E2C0F3E440016AD19 /* ViewController.swift in Sources */,
+				F20CB78A2C119BCF0016AD19 /* TaskB.swift in Sources */,
 				F20CB75A2C0F3E440016AD19 /* AppDelegate.swift in Sources */,
+				F20CB7882C119B910016AD19 /* TaskA.swift in Sources */,
+				F20CB78E2C11ABFD0016AD19 /* TaskManager.swift in Sources */,
 				F20CB75C2C0F3E440016AD19 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
